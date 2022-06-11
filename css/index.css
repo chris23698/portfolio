@@ -1,0 +1,61 @@
+.hero-banner {
+    background-image: url(../img/pexels-adrien-olichon-2387793.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+.image-me {
+    height: 200px;
+}
+.hero-text {
+    height: fit-content;
+    width: 80%;
+    background-color: #393939;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    ;
+}
+.hero-text h1 {
+    font-size: 20px;
+}
+.hero-text p {
+    font-size: 16px;
+}
+.card {
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+.card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.green {
+    background-color: #53674C;
+}
+.black {
+    background-color: #393939;
+}
+img {
+    width: 300px;
+}
+.travel-tips img {
+    width: 150px;
+}
+.button {
+    background-color: white;
+    color: #FF6B00;
+    padding: 8px;
+    border-radius: 15px;
+    width: 100px;
+    cursor: pointer;
+}
