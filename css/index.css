@@ -2,9 +2,13 @@
     background-image: url(../img/pexels-adrien-olichon-2387793.jpg);
     background-size: cover;
     height: 80vh;
+    padding-top: 20px;
 }
 .image-me {
+    background-image: url(../img/profilepic-mobile.png);
+    background-repeat: no-repeat;
     height: 200px;
+    margin-left: 25px;
 }
 .hero-text {
     height: fit-content;
@@ -16,8 +20,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px
-    ;
+    gap: 20px;
 }
 .hero-text h1 {
     font-size: 20px;

@@ -2,10 +2,39 @@
     background-image: url(../img/pexels-cátia-matos-1072179.jpg);
     background-position: center;
     background-size: cover;
+    padding: 20px;
+    height: fit-content;
 }
 .form {
     color: white;
     text-align: center;
     background-color: rgba(83, 103, 76, 0.86);
     width: 80%;
+    padding: 20px;
+    border-radius: 15px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input {
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+}
+.button-send {
+    background-color: #FF6B00;
+    padding: 8px;
+    width: 100px;
+    border-radius: 15px;
 }
