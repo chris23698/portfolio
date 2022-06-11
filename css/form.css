@@ -1,0 +1,11 @@
+.contact {
+    background-image: url(../img/pexels-cátia-matos-1072179.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.form {
+    color: white;
+    text-align: center;
+    background-color: rgba(83, 103, 76, 0.86);
+    width: 80%;
+}
