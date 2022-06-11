@@ -42,6 +42,9 @@
     flex-direction: column;
     gap: 30px;
 }
+a {
+    text-decoration: none;
+}
 .green {
     background-color: #53674C;
 }
