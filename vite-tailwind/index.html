@@ -9,19 +9,19 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </head>
   <body>
-    <header>
-      <div class="nav relative z-10 w-full shadow-sm bg-primary text-white bg-blur-lg">
-         <div class="nav-container w-full bg-primary fixed top-0 left-0 right-0 bg-opacity-50 backdrop-blur-xl">
-             <nav class="p-5 bg-secondary w-full shadow md:flex md:items-center md:justify-between w-full max-w-screen-lg px-5 mx-auto  ">
+    <header class="flex  bg-primary">
+      <div class="container mx-auto relative z-10 w-full shadow-sm bg-primary text-white bg-blur-lg">
+         <div class=" w-full bg-opacity-50 fixed top-0 backdrop-blur-xl ">
+             <nav class=" p-5 bg-secondary w-full shadow md:flex md:items-center md:justify-between w-full max-w-screen-lg px-5 mx-auto  ">
                <div class="flex justify-between items-center">
                 <a href="#"><span class="bg-opacity-0 text-2xl text-main-text cursor-pointer">
-                  <b>CHB</b>
+                  <b>Christoffer Brendemo</b>
                 </span></a>
                 <span class="text-3xl cursor-pointer mx-2 md:hidden block text-white">
                   <ion-icon name="menu" onclick="Menu(this)"></ion-icon>       
                 </span>
                </div>
-               <ul class="bg-opacity-0 md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-primary w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+               <ul class=" md:flex md:items-center z-50 md:z-auto md:static absolute bg-primary w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 top-[-400px] transition-all ease-in duration-500">
                 <li class="mx-4 my-6 md:my-0">
                   <a href="#" class="text-md text-white hover:underline">About</a>
                 </li>
@@ -40,19 +40,19 @@
       </div>
      </header>
      <main>
-      <div class="hero-banner bg-primary h-screen pt-20 flex justify-center">
-        <div class="hero-container px-8 flex flex-col md:flex-row justify-center items-center margin-auto">
+      <div class="container bg-primary pt-20 flex justify-center mx-auto">
+        <div class="md:max-w-screen-lg p-5 w-full flex flex-col md:flex-row justify-between items-center margin-auto">
           <div class="text-container text-white max-w-xs ">
             <p class="text-xl md:text-6xl leading-normal">I am a Front-end developer student</p>
           </div>
           <div class="hero-img-container">
-            <img class="h-720" src="./img/hero-design.png" alt="">
+            <img class="h-720 max-w-lg" src="./img/hero-design.png" alt="">
           </div>
         </div>
       </div>
-      <div class="about-container h-fit w-screen bg-about text-white m-auto">
+      <div class="z-20 about-container h-fit w-screen bg-about text-white m-auto">
         <div class="about flex max-w-screen-lg justify-center items-center m-auto">
-          <div class="img-container flex-1 h-max w-3/6">
+          <div class="img-container flex-1 w-3/6">
             <img class="object-fill" src="./img/me.png" alt="">
           </div>
           <div class="info-container flex-1 flex flex-col justify-center gap-10 p-5">
@@ -67,7 +67,15 @@
     <script>
       function Menu(e){
         let list = document.querySelector('ul');
-        e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+        e.name === 'menu' ? (
+          e.name = "close",
+          list.classList.add('top-[76px]'),
+          list.classList.add('opacity-100')
+           ) : (
+             e.name = "menu" ,
+             list.classList.remove('top-[76px]'),
+             list.classList.remove('opacity-100')
+             )
       }
     </script>
   </body>
